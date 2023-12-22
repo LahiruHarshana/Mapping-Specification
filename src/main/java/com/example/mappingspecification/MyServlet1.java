@@ -11,5 +11,4 @@ public class MyServlet1 extends HttpServlet {
         PrintWriter out=response.getWriter();
         out.println("<h1 style='background-color: aquamarine'>Hello</h1>");
     }
-
 }

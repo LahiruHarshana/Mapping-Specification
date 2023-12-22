@@ -20,6 +20,4 @@ public class MyServlet1 extends HttpServlet {
         out.println("</body></html>");
     }
 
-    public void destroy() {
-    }
 }

@@ -4,7 +4,7 @@ import java.io.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
-@WebServlet(name = "MyServlet1", value = "/hello/")
+@WebServlet(name = "MyServlet1", value = "/hello")
 public class MyServlet1 extends HttpServlet {
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
@@ -29,5 +29,6 @@ public class MyServlet1 extends HttpServlet {
         System.out.println(request.getLocales());
         System.out.println(request.getContentType());
         System.out.println(request.getMethod());
+
     }
 }

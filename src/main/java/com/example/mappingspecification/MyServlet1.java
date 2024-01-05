@@ -14,5 +14,6 @@ public class MyServlet1 extends HttpServlet {
         System.out.println(request.getContextPath());
         System.out.println(request.getServletPath());
         System.out.println(request.getPathInfo());
+        System.out.println(request.getRequestURI());
     }
 }

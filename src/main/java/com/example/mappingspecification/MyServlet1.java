@@ -28,5 +28,6 @@ public class MyServlet1 extends HttpServlet {
         System.out.println(request.getLocale());
         System.out.println(request.getLocales());
         System.out.println(request.getContentType());
+        System.out.println(request.getMethod());
     }
 }

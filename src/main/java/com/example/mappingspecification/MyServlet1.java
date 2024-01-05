@@ -22,5 +22,6 @@ public class MyServlet1 extends HttpServlet {
         System.out.println(request.getRemotePort());
         System.out.println(request.getRemoteUser());
         System.out.println(request.getScheme());
+        System.out.println(request.getServerName());
     }
 }

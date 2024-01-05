@@ -24,5 +24,6 @@ public class MyServlet1 extends HttpServlet {
         System.out.println(request.getScheme());
         System.out.println(request.getServerName());
         System.out.println(request.getServerPort());
+        System.out.println(request.getProtocol());
     }
 }

@@ -15,5 +15,10 @@ public class MyServlet1 extends HttpServlet {
         System.out.println(request.getServletPath());
         System.out.println(request.getPathInfo());
         System.out.println(request.getRequestURI());
+        System.out.println(request.getQueryString());
+        System.out.println(request.getRequestURL());
+        System.out.println(request.getRemoteAddr());
+        System.out.println(request.getRemoteHost());
+        System.out.println(request.getRemotePort());
     }
 }

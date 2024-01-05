@@ -12,5 +12,6 @@ public class MyServlet1 extends HttpServlet {
         out.println("<h1 style='background-color: aquamarine'>Hello</h1>");
 
         System.out.println(request.getContextPath());
+        System.out.println(request.getServletPath());
     }
 }

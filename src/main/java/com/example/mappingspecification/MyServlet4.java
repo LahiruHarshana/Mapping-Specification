@@ -20,7 +20,6 @@ resp.getWriter().println("<h1 style='background-color: aquamarine'>Hello I am Se
         System.out.println(req.getRequestURI());
         System.out.println(req.getQueryString());
         System.out.println(req.getRequestURL());
-
         System.out.println("Empty");
     }
 }
